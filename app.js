@@ -58,7 +58,7 @@ app.webhooks.on("pull_request.opened", handlePullRequestOpened);
 // This logs any errors that occur.
 app.webhooks.onError((error) => {
   if (error.name === "AggregateError") {
-    console.error(`Error processing request: ${error.event}`);
+    console.error('ERROR processing request: ${error.event}`);
   } else {
     console.error(error);
   }
