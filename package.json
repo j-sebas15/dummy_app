@@ -1,0 +1,29 @@
+{
+  "name": "dummy_app",
+  "version": "1.0.0",
+  "description": "This is my first test app at brc, where I am learning to create a GitHub App.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-sebas15/dummy_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-sebas15/dummy_app/issues"
+  },
+  "homepage": "https://github.com/j-sebas15/dummy_app#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "octokit": "^5.0.5"
+  },
+  "devDependencies": {
+    "smee-client": "^5.0.0"
+  }
+}
